@@ -32,11 +32,15 @@ export const Route = createRootRoute({
       { title: "Happy Kids Early Learning Centre | Play, Learn & Shine" },
       { name: "description", content: "A vibrant, safe and nurturing early learning centre in Gosnells WA. Play-based learning, qualified educators and joyful days for every child." },
       { name: "author", content: "Happy Kids" },
-      { property: "og:title", content: "Happy Kids Early Learning Centre" },
-      { property: "og:description", content: "Caring for little hearts, nurturing big dreams. Enrol your child today." },
+      { property: "og:title", content: "Happy Kids Early Learning Centre | Play, Learn & Shine" },
+      { property: "og:description", content: "A vibrant, safe and nurturing early learning centre in Gosnells WA. Play-based learning, qualified educators and joyful days for every child." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Happy Kids Early Learning Centre | Play, Learn & Shine" },
+      { name: "twitter:description", content: "A vibrant, safe and nurturing early learning centre in Gosnells WA. Play-based learning, qualified educators and joyful days for every child." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/ffaad2ee-c19f-4bb3-bb3a-9ce74c119929" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/ffaad2ee-c19f-4bb3-bb3a-9ce74c119929" },
     ],
     links: [
       {
