@@ -16,9 +16,9 @@ export function Hero() {
       >
         <source src={heroVideo.url} type="video/mp4" />
       </video>
-      {/* Clear, neutral wash so text stays readable without tinting the video */}
-      <div className="absolute inset-0 bg-black/25" />
-      <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/40" />
+      {/* Responsive neutral wash: slightly stronger on small screens for readability, lighter on large screens to keep the video vivid */}
+      <div className="absolute inset-0 bg-black/35 sm:bg-black/25 lg:bg-black/20" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/5 to-black/50 sm:from-black/25 sm:via-black/5 sm:to-black/45 lg:from-black/20 lg:via-transparent lg:to-black/40" />
       <div className="absolute -top-10 -left-10 h-40 w-40 rounded-full bg-sunny/40 blur-2xl animate-float" />
       <div className="absolute top-20 right-10 h-32 w-32 rounded-full bg-bubble/40 blur-2xl animate-bounce-slow" />
 
