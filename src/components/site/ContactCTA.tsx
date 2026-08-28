@@ -10,14 +10,15 @@ export function ContactCTA() {
       <div className="absolute -bottom-20 -left-20 h-80 w-80 rounded-full bg-bubble/30 blur-3xl animate-bounce-slow" />
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-14 items-start">
         <div>
-          <span className="inline-block rounded-full bg-white/20 px-4 py-1.5 text-sm font-extrabold">Visit us</span>
-          <h2 className="mt-4 text-4xl sm:text-5xl font-extrabold">Join the Happy Kids family today!</h2>
+          <span className="inline-block rounded-full bg-white/20 px-4 py-1.5 text-sm font-extrabold">Book a Tour</span>
+          <h2 className="mt-4 text-4xl sm:text-5xl font-extrabold">Join our Happy Kids family today!</h2>
           <p className="mt-4 text-lg font-semibold opacity-90">Book a tour and see the joy for yourself. We can't wait to meet you.</p>
           <div className="mt-8 space-y-4">
-            <div className="flex items-start gap-3"><MapPin className="h-6 w-6 text-sunny shrink-0" /><div><div className="font-extrabold">Address</div><div className="opacity-90 font-semibold">262 Corfield St, Gosnells, WA 6110</div></div></div>
-            <div className="flex items-start gap-3"><Phone className="h-6 w-6 text-sunny shrink-0" /><div><div className="font-extrabold">Phone</div><a href="tel:0894903843" className="opacity-90 font-semibold hover:underline">08-9490 3843</a></div></div>
+            <div className="flex items-start gap-3"><MapPin className="h-6 w-6 text-sunny shrink-0" /><div><div className="font-extrabold">Address</div><div className="opacity-90 font-semibold">262 Corfield St, Gosnells, Western Australia 6110</div></div></div>
+            <div className="flex items-start gap-3"><Phone className="h-6 w-6 text-sunny shrink-0" /><div><div className="font-extrabold">Contact Number</div><a href="tel:0894903843" className="opacity-90 font-semibold hover:underline">08-94903843</a></div></div>
             <div className="flex items-start gap-3"><Mail className="h-6 w-6 text-sunny shrink-0" /><div><div className="font-extrabold">Email</div><a href="mailto:info@happykids.org.au" className="opacity-90 font-semibold hover:underline">info@happykids.org.au</a></div></div>
           </div>
+
         </div>
         <form onSubmit={(e) => e.preventDefault()} className="bg-card text-foreground rounded-3xl p-8 shadow-fun border-4 border-white/40 space-y-4">
           <h3 className="text-2xl font-extrabold">Book a tour</h3>
