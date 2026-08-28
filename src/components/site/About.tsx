@@ -2,11 +2,12 @@ import aboutImg from "@/assets/program-learn.jpg";
 import { CheckCircle2 } from "lucide-react";
 
 const points = [
-  "Tailored learning programs for every age",
-  "Inclusive, diverse and welcoming community",
-  "Skilled, caring and qualified educators",
-  "Daily updates so parents stay connected",
+  "A safe, nurturing and inclusive environment for all children",
+  "Tailored learning programs that celebrate each child's unique needs",
+  "Strong partnerships with families to ensure the best outcomes",
+  "A love for learning through play, exploration and discovery",
 ];
+
 
 export function About() {
   return (
@@ -23,11 +24,12 @@ export function About() {
           </div>
         </div>
         <div>
-          <span className="inline-block rounded-full bg-primary/10 text-primary px-4 py-1.5 text-sm font-extrabold">About Happy Kids</span>
-          <h2 className="mt-4 text-4xl sm:text-5xl font-extrabold">Where every child's <span className="text-gradient-rainbow">happiness</span> comes first.</h2>
+          <span className="inline-block rounded-full bg-primary/10 text-primary px-4 py-1.5 text-sm font-extrabold">Welcome to Happy Kids Childcare</span>
+          <h2 className="mt-4 text-4xl sm:text-5xl font-extrabold">Where every child's <span className="text-gradient-rainbow">happiness</span> comes first!</h2>
           <p className="mt-5 text-lg text-muted-foreground font-semibold">
-            At Happy Kids Childcare, we provide a loving, safe and enriching environment where your little ones learn, grow and thrive. We nurture natural curiosity through age-appropriate activities and personalised care.
+            At Happy Kids Childcare, we provide a loving, safe and enriching environment where your little ones can learn, grow and thrive. Our goal is to nurture their natural curiosity and support their development through age-appropriate activities and personalised care.
           </p>
+
           <ul className="mt-6 grid sm:grid-cols-2 gap-3">
             {points.map((p) => (
               <li key={p} className="flex items-start gap-2 font-semibold">

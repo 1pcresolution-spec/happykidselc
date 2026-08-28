@@ -12,8 +12,9 @@ export function Gallery() {
       <div className="absolute inset-0 bg-gradient-rainbow opacity-10" />
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto">
-          <span className="inline-block rounded-full bg-accent/30 text-accent-foreground px-4 py-1.5 text-sm font-extrabold">Moments of joy</span>
-          <h2 className="mt-4 text-4xl sm:text-5xl font-extrabold">Watch our little ones <span className="text-gradient-rainbow">play & shine</span></h2>
+          <span className="inline-block rounded-full bg-accent/30 text-accent-foreground px-4 py-1.5 text-sm font-extrabold">Play, Learn, and Shine Every Day!</span>
+          <h2 className="mt-4 text-4xl sm:text-5xl font-extrabold">Joyful Learning, <span className="text-gradient-rainbow">Endless Possibilities</span></h2>
+
         </div>
         <div className="mt-12 relative rounded-[2rem] overflow-hidden shadow-fun border-4 border-white aspect-video bg-black">
           <video className="absolute inset-0 h-full w-full object-cover" autoPlay muted loop playsInline poster={g1}>

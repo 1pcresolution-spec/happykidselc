@@ -3,19 +3,21 @@ import playImg from "@/assets/program-play.jpg";
 import learnImg from "@/assets/program-learn.jpg";
 
 const programs = [
-  { img: artImg, age: "6 mo – 2 yrs", title: "Nursery", desc: "A warm, loving space for our youngest learners to explore, bond and discover.", focus: "Bonding · Sensory play · Early communication", tone: "bg-bubble/20" },
-  { img: playImg, age: "2 – 3 yrs", title: "Toddlers", desc: "Curiosity meets creativity with hands-on activities and joyful social play.", focus: "Motor skills · Language · Friendships", tone: "bg-sunny/30" },
-  { img: learnImg, age: "3 – 5 yrs", title: "Kindergarten", desc: "School-ready confidence built through stories, projects and big imaginations.", focus: "Literacy · Numeracy · Independence", tone: "bg-grass/30" },
+  { img: artImg, age: "Nursery", title: "Nursery", desc: "A warm and loving environment where our youngest learners feel secure as they explore the world around them.", focus: "Key Focus: Bonding, sensory play, and early communication skills.", tone: "bg-bubble/20" },
+  { img: playImg, age: "Toddlers", title: "Toddlers", desc: "A space to foster curiosity and build social connections through hands-on activities and creative exploration.", focus: "Key Focus: Developing motor skills, social interactions, and language.", tone: "bg-sunny/30" },
+  { img: learnImg, age: "Kindergarten", title: "Kindergarten", desc: "Confidence built through play, exploration and discovery so every child is ready to shine at school.", focus: "Key Focus: Literacy, numeracy, and independence.", tone: "bg-grass/30" },
 ];
+
 
 export function Programs() {
   return (
     <section id="programs" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto">
-          <span className="inline-block rounded-full bg-secondary/20 text-secondary px-4 py-1.5 text-sm font-extrabold">Our Programs</span>
-          <h2 className="mt-4 text-4xl sm:text-5xl font-extrabold">Tailored for every <span className="text-gradient-rainbow">stage of growth</span></h2>
-          <p className="mt-4 text-muted-foreground text-lg font-semibold">Learning and growing together — programs that inspire, engage and nurture natural abilities.</p>
+          <span className="inline-block rounded-full bg-secondary/20 text-secondary px-4 py-1.5 text-sm font-extrabold">Our Programs Include</span>
+          <h2 className="mt-4 text-4xl sm:text-5xl font-extrabold">Tailored for every <span className="text-gradient-rainbow">stage of development</span></h2>
+          <p className="mt-4 text-muted-foreground text-lg font-semibold">“Learning and Growing Together” — we understand that every stage of your child's early years is unique. That's why we offer carefully curated programs designed to inspire, engage and nurture their natural abilities.</p>
+
         </div>
         <div className="mt-14 grid md:grid-cols-3 gap-8">
           {programs.map((p) => (

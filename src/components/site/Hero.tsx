@@ -25,16 +25,17 @@ export function Hero() {
       <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-24 lg:pt-24 lg:pb-32">
         <div className="max-w-3xl">
           <span className="inline-flex items-center gap-2 rounded-full bg-white/20 backdrop-blur px-4 py-1.5 text-sm font-bold">
-            <Sparkles className="h-4 w-4" /> Welcome to Happy Kids
+            <Sparkles className="h-4 w-4" /> Welcome to HappyKids
           </span>
           <h1 className="mt-6 text-5xl sm:text-6xl lg:text-7xl font-extrabold leading-[1.05] drop-shadow-[0_4px_20px_rgba(0,0,0,0.4)]">
-            Caring for <span className="text-sunny">little hearts</span>,
+            Caring for <span className="text-sunny">Little Hearts</span>,
             <br />
-            nurturing <span className="text-accent">big dreams</span>.
+            Nurturing <span className="text-accent">Big Dreams</span>.
           </h1>
           <p className="mt-6 text-lg sm:text-xl text-primary-foreground/95 max-w-xl font-semibold drop-shadow-lg">
-            A vibrant, safe and joyful early learning centre in Gosnells where every child gets to play, learn and shine — every single day.
+            Play, Learn, and Shine Every Day! Safe Hands, Happy Minds — a home away from home in Gosnells, inspiring curiosity and sparking joy.
           </p>
+
           <div className="mt-8 flex flex-wrap gap-4">
             <Button asChild size="lg" className="rounded-full text-base font-bold h-14 px-8 bg-secondary text-secondary-foreground hover:bg-secondary/90 shadow-pop">
               <a href="#contact">Enrol Now</a>
