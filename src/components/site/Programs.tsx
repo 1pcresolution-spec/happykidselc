@@ -3,10 +3,11 @@ import playImg from "@/assets/program-play.jpg";
 import learnImg from "@/assets/program-learn.jpg";
 
 const programs = [
-  { img: artImg, age: "6 mo – 2 yrs", title: "Nursery", desc: "A warm, loving space for our youngest learners to explore, bond and discover.", focus: "Bonding · Sensory play · Early communication", tone: "bg-bubble/20" },
-  { img: playImg, age: "2 – 3 yrs", title: "Toddlers", desc: "Curiosity meets creativity with hands-on activities and joyful social play.", focus: "Motor skills · Language · Friendships", tone: "bg-sunny/30" },
-  { img: learnImg, age: "3 – 5 yrs", title: "Kindergarten", desc: "School-ready confidence built through stories, projects and big imaginations.", focus: "Literacy · Numeracy · Independence", tone: "bg-grass/30" },
+  { img: artImg, age: "Nursery", title: "Nursery", desc: "A warm and loving environment where our youngest learners feel secure as they explore the world around them.", focus: "Key Focus: Bonding, sensory play, and early communication skills.", tone: "bg-bubble/20" },
+  { img: playImg, age: "Toddlers", title: "Toddlers", desc: "A space to foster curiosity and build social connections through hands-on activities and creative exploration.", focus: "Key Focus: Developing motor skills, social interactions, and language.", tone: "bg-sunny/30" },
+  { img: learnImg, age: "Kindergarten", title: "Kindergarten", desc: "Confidence built through play, exploration and discovery so every child is ready to shine at school.", focus: "Key Focus: Literacy, numeracy, and independence.", tone: "bg-grass/30" },
 ];
+
 
 export function Programs() {
   return (
