@@ -10,7 +10,7 @@ export function SiteFooter() {
             <img src={logo} alt="Happy Kids" width={48} height={48} className="h-12 w-12" />
             <div className="text-2xl font-extrabold text-gradient-rainbow">Happy Kids</div>
           </div>
-          <p className="mt-4 max-w-md opacity-80 font-semibold">More than a childcare centre — a home away from home, dedicated to fostering happiness, creativity and confidence in every child.</p>
+          <p className="mt-4 max-w-md opacity-80 font-semibold">Happy Kids Childcare is more than a childcare center—it's a home away from home for your child. We are dedicated to fostering happiness, creativity and confidence in every child we care for.</p>
           <div className="mt-5 flex gap-3">
             <a href="https://www.facebook.com/profile.php?id=61569811643619" aria-label="Facebook" className="h-10 w-10 rounded-full bg-background/10 hover:bg-secondary flex items-center justify-center transition"><Facebook className="h-5 w-5" /></a>
             <a href="https://www.instagram.com/happykids.org.au/" aria-label="Instagram" className="h-10 w-10 rounded-full bg-background/10 hover:bg-bubble flex items-center justify-center transition"><Instagram className="h-5 w-5" /></a>
