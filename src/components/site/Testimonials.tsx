@@ -1,13 +1,14 @@
 import { Star } from "lucide-react";
 
 const quotes = [
-  { name: "Julie Smith", text: "Safe and nurturing! My child loves going to Happy Kids every day. The staff truly care!" },
-  { name: "John Golding", text: "Happy Kids has been a game-changer. The teachers are kind, patient and experienced!" },
+  { name: "Julie Smith", text: "Safe and nurturing! My child loves going to Happykids every day. The staff truly care!" },
+  { name: "John Golding", text: "Happykids has been a game-changer. The teachers are kind, patient, and experienced!" },
   { name: "Steward Patric", text: "Amazing facilities and play-based learning. My little one is always excited to share what they've learned!" },
-  { name: "Lura Robert", text: "The focus on safety and health is reassuring. Happy Kids feels like a second home for my child." },
-  { name: "Nilaya Sharma", text: "Flexible programs and engaging activities — perfect for working parents like us!" },
-  { name: "Mathew Wade", text: "We've seen such positive growth in our child, both socially and academically. Highly recommend!" },
+  { name: "Lura Robert", text: "The focus on safety and health is reassuring. Happykids feels like a second home for my child." },
+  { name: "Nilaya Sharma", text: "Flexible programs and engaging activities make it perfect for working parents like us!" },
+  { name: "Mathew Wade", text: "We've seen such positive growth in our child—socially and academically. Highly recommend Happykids!" },
 ];
+
 const colors = ["bg-sunny/30", "bg-bubble/30", "bg-sky/30", "bg-grass/30", "bg-secondary/30", "bg-accent/40"];
 
 export function Testimonials() {
