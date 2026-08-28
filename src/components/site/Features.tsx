@@ -1,11 +1,12 @@
 import { Shield, GraduationCap, Heart, Blocks } from "lucide-react";
 
 const items = [
-  { icon: Shield, title: "Safe Environment", desc: "Secure premises with strict safety protocols.", color: "bg-sky/30 text-sky" },
-  { icon: GraduationCap, title: "Qualified Staff", desc: "Trained, caring educators who love what they do.", color: "bg-bubble/30 text-bubble" },
-  { icon: Heart, title: "Nurturing Care", desc: "Warm, empathetic interactions every single day.", color: "bg-secondary/30 text-secondary" },
-  { icon: Blocks, title: "Play-Based Learning", desc: "Activities that spark curiosity and joy.", color: "bg-grass/30 text-grass" },
+  { icon: Shield, title: "Safe Environment", desc: "Secure premises with safety protocols.", color: "bg-sky/30 text-sky" },
+  { icon: GraduationCap, title: "Qualified Staff", desc: "Trained and caring staff ensuring emotional and physical well-being.", color: "bg-bubble/30 text-bubble" },
+  { icon: Heart, title: "Nurturing Care", desc: "Positive, empathetic interactions fostering trust and growth.", color: "bg-secondary/30 text-secondary" },
+  { icon: Blocks, title: "Play-Based Learning", desc: "Activities that promote learning through play.", color: "bg-grass/30 text-grass" },
 ];
+
 
 export function Features() {
   return (
