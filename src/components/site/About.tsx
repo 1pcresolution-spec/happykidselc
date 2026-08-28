@@ -2,11 +2,12 @@ import aboutImg from "@/assets/program-learn.jpg";
 import { CheckCircle2 } from "lucide-react";
 
 const points = [
-  "Tailored learning programs for every age",
-  "Inclusive, diverse and welcoming community",
-  "Skilled, caring and qualified educators",
-  "Daily updates so parents stay connected",
+  "A safe, nurturing and inclusive environment for all children",
+  "Tailored learning programs that celebrate each child's unique needs",
+  "Strong partnerships with families to ensure the best outcomes",
+  "A love for learning through play, exploration and discovery",
 ];
+
 
 export function About() {
   return (
