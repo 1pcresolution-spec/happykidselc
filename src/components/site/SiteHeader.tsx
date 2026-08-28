@@ -32,7 +32,7 @@ export function SiteHeader() {
         </nav>
         <div className="hidden md:flex items-center gap-3">
           <a href="tel:0894903843" className="flex items-center gap-2 text-sm font-bold text-primary">
-            <Phone className="h-4 w-4" /> 08-9490 3843
+            <Phone className="h-4 w-4" /> 08-94903843
           </a>
           <Button asChild size="lg" className="rounded-full font-bold shadow-pop bg-secondary text-secondary-foreground hover:bg-secondary/90">
             <a href="#contact">Enrol Now</a>
