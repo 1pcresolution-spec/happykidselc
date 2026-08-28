@@ -33,7 +33,7 @@ export function SiteFooter() {
         </div>
 
       </div>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 pt-6 border-t border-background/10 text-sm opacity-70 font-semibold">© {new Date().getFullYear()} Happy Kids Early Learning Centre. All rights reserved.</div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 pt-6 border-t border-background/10 text-sm opacity-70 font-semibold">© {new Date().getFullYear()} SAAA, Inc. All rights reserved.</div>
     </footer>
   );
 }
