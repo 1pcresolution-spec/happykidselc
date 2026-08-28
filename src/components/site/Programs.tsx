@@ -14,9 +14,10 @@ export function Programs() {
     <section id="programs" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto">
-          <span className="inline-block rounded-full bg-secondary/20 text-secondary px-4 py-1.5 text-sm font-extrabold">Our Programs</span>
-          <h2 className="mt-4 text-4xl sm:text-5xl font-extrabold">Tailored for every <span className="text-gradient-rainbow">stage of growth</span></h2>
-          <p className="mt-4 text-muted-foreground text-lg font-semibold">Learning and growing together — programs that inspire, engage and nurture natural abilities.</p>
+          <span className="inline-block rounded-full bg-secondary/20 text-secondary px-4 py-1.5 text-sm font-extrabold">Our Programs Include</span>
+          <h2 className="mt-4 text-4xl sm:text-5xl font-extrabold">Tailored for every <span className="text-gradient-rainbow">stage of development</span></h2>
+          <p className="mt-4 text-muted-foreground text-lg font-semibold">“Learning and Growing Together” — we understand that every stage of your child's early years is unique. That's why we offer carefully curated programs designed to inspire, engage and nurture their natural abilities.</p>
+
         </div>
         <div className="mt-14 grid md:grid-cols-3 gap-8">
           {programs.map((p) => (
