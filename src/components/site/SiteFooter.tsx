@@ -28,9 +28,10 @@ export function SiteFooter() {
         </div>
         <div>
           <h4 className="font-extrabold mb-4">Visit</h4>
-          <p className="opacity-80 font-semibold">262 Corfield St,<br />Gosnells, WA 6110</p>
-          <p className="mt-3 opacity-80 font-semibold">08-9490 3843</p>
+          <p className="opacity-80 font-semibold">262 Corfield St, Gosnells,<br />Western Australia 6110</p>
+          <p className="mt-3 opacity-80 font-semibold">08-94903843</p>
         </div>
+
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 pt-6 border-t border-background/10 text-sm opacity-70 font-semibold">© {new Date().getFullYear()} Happy Kids Early Learning Centre. All rights reserved.</div>
     </footer>
